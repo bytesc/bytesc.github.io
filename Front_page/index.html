@@ -18,9 +18,9 @@
   <div class="container-fluid">
 
     <a class="navbar-brand" href="#"> BYTESC </a>
-<!--    <a class="navbar-brand me-2" href="#">-->
+    <a class="navbar-brand me-2" href="#">
 <!--      <img src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp" height="16" alt="Logo" loading="lazy" style="margin-top: -1px;"/>-->
-<!--    </a>-->
+    </a>
     <button
             class="navbar-toggler"
             type="button"
@@ -63,15 +63,16 @@
         <!-- Icon -->
         <a class="text-reset me-3" href="https://github.com/bytesc">
           <i class="fa-brands fa-github" style="color: #f0f0f0;"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">5</span>
+          <span style="color: white">github</span>
         </a>
         <a class="text-reset me-3" href="https://gitee.com/bytesc">
           <i class="fa-brands fa-square-git" style="color: #ff7522"></i>
+          <span class="badge rounded-pill badge-notification bg-danger">5</span>
+          <span style="color: #ff7522">gitee</span>
         </a>
         <a class="text-reset me-3" href="./static/img/wechat.png">
           <i class="fa-brands fa-weixin" style="color: #11ff00"></i>
-        </a>
-        <a class="text-reset me-3" href="#ctc">
-          <i class="fas fa-envelope" style="color: #f0f0f0;"></i>
         </a>
 
         <!-- Notifications -->
@@ -84,22 +85,15 @@
                   data-mdb-toggle="dropdown"
                   aria-expanded="false"
           >
-            <i class="fas fa-bell" style="color: #f0f0f0;"></i>
-            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+            <i class="fas fa-envelope" style="color: #f0f0f0;"></i>
           </a>
           <ul
                   class="dropdown-menu dropdown-menu-end"
                   aria-labelledby="navbarDropdownMenuLink"
           >
             <li>
-              <a class="dropdown-item" href="#">欢迎访客</a>
+              <span class="dropdown-item" href="#ctc"><i class="fas fa-envelope me-3"></i>bytesc@163.com</span>
             </li>
-            <li>
-              <a class="dropdown-item" href="#">如需了解更多信息，欢迎与我联系</a>
-            </li>
-<!--            <li>-->
-<!--              <a class="dropdown-item" href="#">Something else here</a>-->
-<!--            </li>-->
           </ul>
         </div>
         <!-- Avatar -->
@@ -128,10 +122,10 @@
               <a class="dropdown-item" href="#">My profile</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#prj">我的项目</a>
+              <a class="dropdown-item" href="#prj"><i class="fa-solid fa-laptop-code me-3"></i>我的项目</a>
             </li>
             <li>
-              <a class="dropdown-item" href="#ctc">联系方式</a>
+              <a class="dropdown-item" href="#ctc"><i class="fa-solid fa-address-book me-3"></i>联系方式</a>
             </li>
           </ul>
         </div>
@@ -315,7 +309,7 @@
               <div class="col-3" style="text-align: center;"><a href="https://gitee.com/bytesc/image_-recognition_-web-gui" class="btn btn-dark">
                 <i class="fa-brands fa-square-git" style="color: #ff7522"></i>
               </a></div>
-              <div class="col-6" style="text-align: center;"><a href="#" class="btn btn-success disabled">
+              <div class="col-6" style="text-align: center;"><a href="http://www.bytesc.club:6008/?app=page1" class="btn btn-success">
                 <i class="fa-regular fa-desktop" style="color: #f0f0f0;"></i> 在线演示
               </a></div>
             </div>
@@ -445,22 +439,16 @@
 
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-<!--          <h6 class="text-uppercase fw-bold mb-4">-->
-<!--            Useful links-->
-<!--          </h6>-->
-<!--          <p>-->
-<!--            <a href="#" class="text-reset">Pricing</a>-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <a href="#" class="text-reset">Settings</a>-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <a href="#" class="text-reset">Orders</a>-->
-<!--          </p>-->
-<!--          <p>-->
-<!--            <a href="#" class="text-reset">Help</a>-->
-<!--          </p>-->
+<!--           Links-->
+          <h6 class="text-uppercase fw-bold mb-4">
+            代码仓库
+          </h6>
+          <a href="https://github.com/bytesc">
+            <p><i class="fa-brands fa-github me-3"></i>github</p>
+          </a>
+          <a href="https://gitee.com/bytesc">
+            <p><i class="fa-brands fa-square-git me-3"></i>gitee</p>
+          </a>
         </div>
         <!-- Grid column -->
 
@@ -468,17 +456,12 @@
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">联系方式</h6>
-          <p><i class="fas fa-home me-3"></i> 中国，上海</p>
+          <p><i class="fas fa-home me-3"></i>中国，上海</p>
           <p><i class="fas fa-envelope me-3"></i>bytesc@163.com</p>
           <a href="./static/img/wechat.png">
             <p><i class="fa-brands fa-weixin me-3"></i>wxid_zzud4glx626922</p>
           </a>
-          <a href="https://github.com/bytesc">
-            <p><i class="fa-brands fa-github me-3"></i>github.com/bytesc</p>
-          </a>
-          <a href="https://gitee.com/bytesc">
-            <p><i class="fa-brands fa-square-git me-3"></i>gitee.com/bytesc</p>
-          </a>
+
 
         </div>
         <!-- Grid column -->
