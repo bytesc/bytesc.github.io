@@ -11,6 +11,20 @@
     <link rel="stylesheet" href="./static/fontawesome-free-6.4.0-web/css/fontawesome.min.css">
     <link rel="stylesheet" href="./static/fontawesome-free-6.4.0-web/css/brands.min.css">
     <link rel="stylesheet" href="./static/fontawesome-free-6.4.0-web/css/solid.min.css">
+
+    <style>
+      .card:hover{
+        border: 2px solid transparent;
+        border-radius: 10px;
+        background-clip: padding-box, border-box;
+        background-origin: padding-box, border-box;
+        background-image: linear-gradient(to right, #ffffff, #ffffff), linear-gradient(90deg, #8F41E9, #a1c0ff);
+      }
+      .card{
+        border: 2px solid transparent;
+        border-radius: 10px;
+      }
+    </style>
 </head>
 
 <body>
@@ -285,7 +299,7 @@
         </div>
         <div class="card-body">
           <h5 class="card-title"><i class="fa-regular fa-laptop-code"></i> 基于 FastAPI 的 ERP 系统</h5>
-          <p class="card-text" style="height: 100px">基于 FastAPI 和 SQLite3 的简单企业资源计划 (ERP) 系统，根据物料构成树，库存和生产计划 (MPS) 使用 DFS 算法，规划物料数量和交货期。</p>
+          <p class="card-text" style="height: 100px">基于 FastAPI 和 SQLite3 的简单企业资源计划 (ERP) 系统，根据物料构成树，库存和生产计划 (MPS) 使用 DFS 规划物料数量和交货期。</p>
           <div class="row">
             <div class="col-3" style="text-align: center;"><a href="https://github.com/bytesc/simple-erp-system" class="btn btn-dark" title="github">
               <i class="fa-brands fa-github" style="color: #f0f0f0;"></i>
