@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Probably the most complete UI kit out there. Multiple functionalities and controls added,  extended color palette and beautiful typography, designed as its own extended version of Bootstrap at  the highest level of quality.                             ">
+    <meta name="author" content="Webpixels">
+    <title>智能诊断</title>
+    <!-- Theme CSS -->
+    <link type="text/css" href="./assets/css/theme.css" rel="stylesheet">
+    <!-- Demo CSS - No need to use these in your project -->
+    <link type="text/css" href="./assets/css/demo.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+    <a class="navbar-brand" href="#">阿尔兹海默病智能诊断</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_example_1" aria-controls="navbar_example_1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar_example_1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#try"> 开始试用 <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">coming soon</a>
+        </li>
+
+
+      </ul>
+      <ul class="navbar-nav ml-auto">
+
+
+
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">...</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbar_1_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">关于我们</a>
+          <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
+            <a class="dropdown-item" href="#"></a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#"></a>
+          </div>
+        </li>
+
+
+
+      </ul>
+    </div>
+  </nav> -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-transparent navbar-dark bg-dark py-4">
+    <div class="container">
+      <a class="navbar-brand" href="">阿尔兹海默病智能诊断</a>
+      <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main" aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <li class="nav-item ">
+            <a class="nav-link" href="../index.html">Overview</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+            <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
+              <a class="dropdown-item" href="../pages/homepage.html">Homepage</a>
+              <a class="dropdown-item" href="../pages/about.html">About us</a>
+              <a class="dropdown-item" href="../pages/sign-in.html">Sign in</a>
+              <a class="dropdown-item" href="../pages/contact.html">Contact</a>
+            </div>
+          </li> -->
+          <li class="nav-item">
+            <a href="#try" target="_blank" class="btn btn-sm bg-white d-none d-lg-inline-flex" >免费试用</a>
+          </li>
+          <div class="dropdown-divider d-lg-none my-4"></div>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://github.com/bytesc/Image_Recognition_WebGUI" target="_blank"><i class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <main class="main">
+
+<!--背景图片-->
+      <section class="spotlight parallax bg-cover bg-size--cover" data-spotlight="fullscreen" style="background-image: url('./pic/brain.png')">
+        <span class="mask bg-primary alpha-6"></span>
+        <div class="spotlight-holder py-lg pt-lg-xl">
+          <div class="container d-flex align-items-center no-padding">
+            <div class="col">
+              <div class="row cols-xs-space align-items-center text-center text-md-left justify-content-center">
+                <div class="col-7">
+                  <div class="text-center mt-5">
+                    <!--标题-->
+                    <h2 class="heading display-4 font-weight-400 text-white mt-5 animated" data-animation-in="fadeInUp" data-animation-delay="2000">
+                      基于<span class="font-weight-700">机器学习</span>的
+                    </h2>
+
+                    <h2 class="heading display-4 font-weight-400 text-white mt-5 animated" data-animation-in="fadeInUp" data-animation-delay="2000">
+                      <span class="font-weight-700">阿尔兹海默病</span>
+                    </h2>
+
+                    <h2 class="heading display-4 font-weight-400 text-white mt-5 animated" data-animation-in="fadeInUp" data-animation-delay="2000">
+                      智能诊断
+                    </h2>
+                    <!--副标题-->
+                    <!-- <p class="lead text-white mt-3 lh-180 c-white animated" data-animation-in="fadeInUp" data-animation-delay="2500">
+                      <strong class="text-white">2023</strong>
+                    </p> -->
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5 bg-lighter border-top border-bottom" id="scrollToSection">
+        <div class="container">
+          <div class="d-flex align-items-center justify-content-center">
+            <a href="#" class="btn btn-danger btn-icon-only btn-zoom--hover rounded-circle">
+              <span class="btn-inner--icon"><i class="fas fa-heart"></i></span>
+            </a>
+            <span class="heading h4 ml-3 mb-0">用心关爱，智能守护 —— 机器学习技术助力阿尔兹海默病早期诊断</span>
+          </div>
+        </div>
+      </section>
+      <section class="slice slice-lg" data-delimiter="1">
+        <div class="container">
+          <div class="row cols-xs-space cols-sm-space align-items-center">
+            <div class="col-md-6">
+              <img src="./pic/pt1.png" class="img-center img-fluid rounded z-depth-3">
+            </div>
+            <div class="col-md-6 col-lg-5 ml-lg-auto">
+              <div class="pr-md-4">
+                <h3 class="heading h3">
+                  <i class="fas fa-wheelchair"></i> 疾病的严重性与普遍性 
+                </h3>
+                <p class="lead text-gray mt-4">阿尔兹海默病作为一种普遍而严重的神经退行性疾病，对个人和社会造成了深远影响。随着人口老龄化，这种疾病的发病率不断上升，成为全球公共卫生的重大挑战。早期识别和干预对于减轻患者及其家庭的负担至关重要。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slice slice-xl" data-delimiter="1">
+        <div class="container">
+          <div class="row cols-xs-space cols-sm-space align-items-center">
+            <div class="col-md-6 order-md-2 ml-lg-auto">
+              <img src="./pic/pt2.png" class="img-center img-fluid rounded z-depth-3">
+            </div>
+            <div class="col-md-6 col-lg-5 order-md-1">
+              <div class="pr-md-4">
+                <h3 class="heading h3">
+                  早期诊断的关键性 <i class="fas fa-stethoscope"></i>
+                </h3>
+                <p class="lead text-gray mt-4">
+                  阿尔兹海默病的早期发现对延缓病情至关重要。基于机器学习的智能诊断工具能够准确识别早期症状，为患者提供及时治疗的机会，改善他们的生活质量。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="slice-lg">
+        <div class="container">
+          <h2 class="heading h3 strong-600 text-center mb-5">
+            我们的进展
+          </h2>
+          <div class="row-wrapper">
+
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+              <div class="col-md-6">
+                <div class="card bg-primary">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fab fa-github text-white"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading text-white h4">智能识别脑部 MRI 图像，诊断阿尔兹海默病</h3>
+                        <p class="text-white mb-0">利用基于 Pytorch 的卷积神经网络，对脑部 MRI 图像进行分类。分类 AD, LMCI, MCL, EMCI, CN。准确率达到较高水平</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading h4">完成 <small></small></h3>
+                        <p class="mb-0">测试集上的准确率达到 90%，能够根据输入的 MRI 图像，诊断阿尔兹海默病。同时绘制神经网络参数热力图，具有一定的可解释性。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <section class="slice slice-lg" data-delimiter="1">
+              <div class="container">
+                <div class="row cols-xs-space cols-sm-space align-items-center">
+                  <div class="col-md-6">
+                    <img src="./pic/hot_img9.3.png" class="img-center img-fluid rounded z-depth-3">
+                  </div>
+                  <div class="col-md-6 col-lg-5 ml-lg-auto">
+                    <div class="pr-md-4">
+                      <h3 class="heading h3">
+                        智能识别的脑部 MRI 图像
+                      </h3>
+                      <p class="lead text-gray mt-4">根据输入的图像诊断阿尔兹海默病，根据模型导出的参数绘制热力图。
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+              <div class="col-md-6">
+                <div class="card bg-primary">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fas fa-code text-white"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading text-white h4">WEB 应用开发</h3>
+                        <p class="text-white mb-0">基于 Pywebio 的 web 应用，实现智能诊断系统的在线部署。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fas fa-check"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading h4">完成</h3>
+                        <p class="mb-0">用户能够在线上传的 MRI 图像，获得智能诊断结果。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <section class="slice slice-lg" data-delimiter="1">
+              <div class="container">
+                <div class="row cols-xs-space cols-sm-space align-items-center">
+                  <div class="col-md-6">
+                    <img src="./pic/pro1.png" class="img-center img-fluid rounded z-depth-3">
+                  </div>
+                  <div class="col-md-6 col-lg-5 ml-lg-auto">
+                    <div class="pr-md-4">
+                      <h3 class="heading h3">
+                        智能诊断 Web 应用
+                      </h3>
+                      <p class="lead text-gray mt-4">  基于 3D 卷积神经网络和 ADNI 数据集的阿尔兹海默智能诊断 Web 应用
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+
+            
+            <div class="row cols-xs-space cols-sm-space cols-md-space">
+              <div class="col-md-6">
+                <div class="card bg-primary">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fas fa-paperclip text-white"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading text-white h4">项目商业化</small></h3>
+                        <p class="text-white mb-0">......</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body py-5">
+                    <div class="d-flex align-items-start">
+                      <div class="icon icon-lg">
+                        <i class="fas fa-font"></i>
+                      </div>
+                      <div class="icon-text">
+                        <h3 class="heading h4">计划中</h3>
+                        <p class="mb-0">......</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="try" class="slice slice-lg bg-tertiary bg-cover bg-size--contain" style="background-image: url('./pic/brain2.png'); background-position: center 10%;">
+        <span class="mask bg-primary alpha-7"></span>
+        <div class="container text-center">
+          <div class="row cols-xs-space cols-sm-space cols-md-space">
+            <div class="col-12">
+              <h2 class="heading text-white h1 strong-600">
+                目前实现的功能
+              </h2>
+              <div class="row justify-content-center mt-4">
+                <div class="col-lg-8">
+                  <p class="lead text-white">基于卷积神经网络
+                  </p>
+                  <p class="lead text-white">
+                    对 AD LMCI MCI EMCI CN 分类
+                  </p>
+                  <p class="lead text-white">在测试集上约90.3%的分类准确率
+                  </p>
+                  <p class="lead text-white">在测试集上对AD的识别准确率达98.5%
+                  </p>
+                  <p class="lead text-white">绘制参数热力图
+                  </p>
+
+                  <div class="btn-container mt-5">
+                    <a href="http://s.bytesc.top:6006/?app=zlzheimer_diagnostic_system" class="btn btn-lg bg-white px-4">
+                      <strong>试用</strong><small>(demo)</small>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <footer class="pt-5 pb-3 footer  footer-dark bg-tertiary">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="pr-lg-5">
+              <h1 class="heading h6 text-uppercase font-weight-700 mb-3">基于<strong>机器学习</strong>的阿尔兹海默智能诊断</h1>
+              <p>用机器学习的方法识别MRI图像，实现自动智能诊断</p>
+              <p>识别准确率仅代表测试集上的准确率，输出结果仅供参考</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md">
+            <h5 class="heading h6 text-uppercase font-weight-700 mb-3">相关</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://github.com/bytesc/Image_Recognition_WebGUI">github 代码仓库</a></li>
+              <li><a class="text-muted" href="https://github.com/moboehle/Pytorch-LRP">参考文献</a></li>
+              <li><a class="text-muted" href="https://adni.loni.usc.edu/">数据集</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+
+      </div>
+    </footer>
+    <!-- Core -->
+    <script src="./assets/vendor/jquery/jquery.min.js"></script>
+    <script src="./assets/vendor/popper/popper.min.js"></script>
+    <script src="./assets/js/bootstrap/bootstrap.min.js"></script>
+    <!-- FontAwesome 5 -->
+    <script src="./assets/vendor/fontawesome/js/fontawesome-all.min.js" defer></script>
+    <!-- Page plugins -->
+    <script src="./assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="./assets/vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+    <script src="./assets/vendor/input-mask/input-mask.min.js"></script>
+    <script src="./assets/vendor/nouislider/js/nouislider.min.js"></script>
+    <script src="./assets/vendor/textarea-autosize/textarea-autosize.min.js"></script>
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.js"></script>
+  </body>
+</html>
